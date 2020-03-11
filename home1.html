@@ -10,123 +10,165 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container width-full">
-        <header>
-            <div class="social-icon-box bg-color1 flex-h-left-v-center">
-                <div class="icon-wrapper flex-v-center">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fas fa-phone-volume"></i>
+<div class="container w-100 mw-100 py-3">
+    <header>
+        <div class="social-icon-box bg-color1 d-flex align-items-center flex-row-reverse">
+            <div class="icon-wrapper d-flex align-items-center px-3">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-phone-volume"></i>
+            </div>
+        </div>
+        <div class="row py-1 py-sm-2 bg-color3">
+            <div class="row col-md-7">
+                <div class="col-sm-6 py-3 py-md-0 bg-color2 flex-v-center">
+                    <img src="assets/img/header-banner-logo.png" alt="logo" class="w-100"/>
+                </div>
+                <div id="myCarousel" class="carousel slide col-sm-6 px-0" data-ride="carousel" data-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/animal-cancer-trust-1.jpg" alt="Animal Cancer Trust One" class="w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/animal-cancer-trust-2.jpg" alt="Animal Cancer Trust Two" class="w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/animal-cancer-trust-3.jpg" alt="Animal Cancer Trust Three" class="w-100">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row pv-x0p15 bg-color3">
-                <div class="row col-md-7">
-                    <div class="col-md-6 bg-color2 flex-v-center">
-                        <img src="assets/img/header-banner-logo.png" alt="logo" />
-                    </div>
-                    <div class="col-md-6 slider-box flex-v-center">
-                        <img src="assets/img/animal-cancer-trust-1.jpg" alt="logo" />
-                    </div>
+            <div class="row col-md-5">
+                <div class="col-sm-6 col-md-8 py-3 py-md-0 bg-color1 flex-v-center">
+                    <img src="assets/img/header-banner-strapline.png" alt="strapline" class="w-100"/>
                 </div>
-                <div class="row col-md-5">
-                    <div class="col-md-8 bg-color1 flex-v-center">
-                        <img src="assets/img/header-banner-strapline.png" alt="strapline"/>
-                    </div>
-                    <div class="col-md-4 bg-color2 flex-center">
-                        <a href="#">
-                            <img src="assets/img/header-banner-donate.png" />
-                        </a>
-                    </div>
+                <div class="col-sm-6 col-md-4 py-3 py-md-0 bg-color2 flex-center">
+                    <a href="#">
+                        <img src="assets/img/header-banner-donate.png" class="w-100"/>
+                    </a>
                 </div>
             </div>
-        </header>
-        <nav class="navbar navbar-expand-sm bg-color1">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md py-0 bg-color1 d-flex justify-content-end">
+        <button class="navbar-toggler py-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse h-100" id="collapsibleNavbar">
+            <ul class="navbar-nav h-100">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">About</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">CAP Campaign</a>
+                        <a class="dropdown-item" href="#">Chief Executive Message</a>
+                        <a class="dropdown-item" href="#">Our History</a>
+                        <a class="dropdown-item" href="#">Values</a>
+                        <a class="dropdown-item" href="#">What We Do</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resources</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Resources</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Case studies</a>
+                        <a class="dropdown-item" href="#">FAQs</a>
+                        <a class="dropdown-item" href="#">Guide to Cancer in Pets</a>
+                        <a class="dropdown-item" href="#">Pet Loss</a>
+                        <a class="dropdown-item" href="#">Types of Cancer</a>
+                        <a class="dropdown-item" href="#">Vet Practices Supporting Cancer</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Support</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Support</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Donate</a>
+                        <a class="dropdown-item" href="#">Friends Remembered</a>
+                        <a class="dropdown-item" href="#">Fundraising</a>
+                        <a class="dropdown-item" href="#">Survivors Celebrated</a>
+                        <a class="dropdown-item" href="#">Work with Us</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Shop</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Contact</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Contact Us</a>
+                        <a class="dropdown-item" href="#">Legal Information</a>
+                        <a class="dropdown-item" href="#">Trustees</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CAP Members</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">CAP Members</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Join Us</a>
+                        <a class="dropdown-item" href="#">Member Benefits</a>
+                        <a class="dropdown-item" href="#">Log in</a>
+                    </div>
                 </li>
             </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="row">
+            <div class="col-md-5 py-3">
+                <p class="color1 text-x1 font-weight-bolder">Aims</p>
+                <p>
+                    ACT’s vision is of a world where pet owners and vets have access to reliable and
+                    up to date information so that an early and accurate diagnosis can be made and
+                    where up to date information is available on effective cancer treatments and prognosis.
+                </p>
             </div>
-        </nav>
-        <section>
-            <div class="row">
-                <div class="col-md-5 pv-main">
-                    <p class="color1 text-x1 font-weight-bold">Aims</p>
+            <div class="row col-md-7">
+                <div class="col-sm-8 pt-3 px-3">
+                    <p class="color1 text-x1 font-weight-bolder">Our Vision</p>
                     <p>
                         ACT’s vision is of a world where pet owners and vets have access to reliable and
                         up to date information so that an early and accurate diagnosis can be made and
                         where up to date information is available on effective cancer treatments and prognosis.
                     </p>
-                </div>
-                <div class="row col-md-7">
-                    <div class="col-md-8 pv-main">
-                        <p class="color1 text-x1 font-weight-bold">Our Vision</p>
-                        <p>
-                            ACT’s vision is of a world where pet owners and vets have access to reliable and
-                            up to date information so that an early and accurate diagnosis can be made and
-                            where up to date information is available on effective cancer treatments and prognosis.
-                        </p>
-                        <p class="color1 text-x1 font-weight-bold">Our Mission</p>
-                        <p>
-                            Our goal is to fulfill our vision by carrying out our objectives to the best of
-                            our ability. Our aims are to:
-                            Provide education and information that help owners, the veterinary
-                            profession and all who care for our pets understand more about cancer
-                            and what treatments are possible.
-                            Facilitate ethical research and improve our understanding and treatment of cancer.
-                            Work with partners, at home and abroad, to pursue the fight against
-                        </p>
-                        <div class="bg-color3 pa-main">
-                            <p class="color1 text-x1 font-weight-bolder">News & Social Media</p>
-                            <p>Pull the Social Media feed</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 bg-color2 right-img-box">
-                        <ul class="list-unstyled">
-                            <li><a href="#"><img src="assets/img/animal-cancer-trust-3.jpg" class="width-full" /></a></li>
-                            <li><a href="#"><img src="assets/img/animal-cancer-trust-4.jpg" class="width-full" /></a></li>
-                            <li><a href="#"><img src="assets/img/animal-cancer-trust-5.jpg" class="width-full" /></a></li>
-                        </ul>
+                    <p class="color1 text-x1 font-weight-bolder">Our Mission</p>
+                    <p>
+                        Our goal is to fulfill our vision by carrying out our objectives to the best of
+                        our ability. Our aims are to:
+                        Provide education and information that help owners, the veterinary
+                        profession and all who care for our pets understand more about cancer
+                        and what treatments are possible.
+                        Facilitate ethical research and improve our understanding and treatment of cancer.
+                        Work with partners, at home and abroad, to pursue the fight against
+                    </p>
+                    <div class="bg-color3 p-3">
+                        <p class="color1 text-x1 font-weight-bolder">News & Social Media</p>
+                        <p>Pull the Social Media feed</p>
                     </div>
                 </div>
+                <div class="col-sm-4 bg-color2 right-img-box mx-3 mx-sm-0">
+                    <ul class="list-unstyled w-100">
+                        <li><a href="#"><img src="assets/img/animal-cancer-trust-3.jpg" class="w-100" /></a></li>
+                        <li><a href="#"><img src="assets/img/animal-cancer-trust-4.jpg" class="w-100" /></a></li>
+                        <li><a href="#"><img src="assets/img/animal-cancer-trust-5.jpg" class="w-100" /></a></li>
+                    </ul>
+                </div>
             </div>
-        </section>
-        <footer class="bg-color1 color-white">
-            <div class="row ph-main">
-                <div class="col-md-6 pa-main">Animal Cancer Trust © 2020</div>
-                <div class="col-md-6 pa-main text-md-right">Registered Charity Number: 1094779</div>
-            </div>
-        </footer>
-    </div>
+        </div>
+    </section>
+    <footer class="bg-color1 text-white">
+        <div class="row p-2">
+            <div class="col-md-6 pa-main">Animal Cancer Trust © 2020</div>
+            <div class="col-md-6 pa-main text-md-right">Registered Charity Number: 1094779</div>
+        </div>
+    </footer>
+</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <script>
-    </script>
+<script>
+</script>
 </body>
 </html>
