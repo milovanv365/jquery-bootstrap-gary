@@ -41,11 +41,29 @@ header .social-icon-box i {
     font-size: 18px;
     padding: 11px 6px;
 }
+header .img-donate {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    header .img-donate {
+        width: 70%;
+    }
+}
 
 nav .nav-item {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+@media (min-width: 768px) {
+    nav .nav-item {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 767px) {
+    nav .nav-item {
+        border-right: none;
+    }
 }
 nav .nav-item:hover {
     background-color: #f9d5e4;
@@ -55,11 +73,6 @@ nav .nav-item:hover .dropdown-menu {
 }
 nav .nav-item:hover .nav-link {
     color: #ec008c;
-}
-@media (max-width: 767px) {
-    nav .nav-item {
-        border-right: none;
-    }
 }
 nav .nav-link {
     color: white;
