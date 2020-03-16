@@ -26,7 +26,7 @@
                 </p>
             </div>
             <div class="row pt-3">
-                <div class="col-12 col-sm-5 pl-0 pr-3 pb-3 faq-box">
+                <div class="col-12 col-sm-5 pl-0 pr-3 pb-3 color-text-box">
                     <h4 class="color1 font-weight-bolder">FAQs</h4>
                     <p>What is neoplasia?</p>
                     <p>What happens after a diagnosis of cancer is made?</p>
