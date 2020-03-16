@@ -28,7 +28,7 @@
                         Our new website and ACT now to become a CAP (Cancer Alert Practice) campaign will help us to:
                     </p>
                     <p>
-                       Provide informative, independent educational material to pet owners.
+                        Provide informative, independent educational material to pet owners.
                     </p>
                     <p>
                         Provide a resource for owners looking for oncology services for their pets.
