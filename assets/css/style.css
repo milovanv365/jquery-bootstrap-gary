@@ -110,6 +110,11 @@ section .news-social-media-content {
     overflow: auto;
 }
 
+section .faq-box p {
+    color: #ec008c;
+    font-weight: bold;
+}
+
 footer {
     padding: 10px 8px;
 }
