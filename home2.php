@@ -3,33 +3,49 @@
 <section>
     <div class="row">
         <div class="col-md-12 col-lg-8 py-3">
-            <div class="pt-3 px-3">
-                <p class="color1 text-x1 font-weight-bolder">Grid Layout 1</p>
-                <p class="py-2">
-                    Our Aims as a charity are to: <br />
+            <div class="p-3">
+                <h4 class="color1 font-weight-bolder">Grid Layout 1</h4>
+                <p>
+                    Our Aims as a charity are to:</p>
+                <p>
                     Provide education and information that help owners, the veterinary profession and all who care for our pets understand
                     more about cancer and what treatments are possible.
+                </p>
+                <p>
                     Facilitate ethical research and improve our understanding and treatment of cancer.
+                </p>
+                <p>
                     Work with partners, at home and abroad, to pursue the fight against cancer in our pets.
                 </p>
-                <p class="py-3">
+                <p class="pt-3">
                     Our goal for the next 5 years is to meet our first aim listed above in order to:
+                </p>
+                <p>
                     Support owners in their journey dealing with cancer in pets and
+                </p>
                     Equip pet professionals to help them do the same by providing
                 </p>
             </div>
             <div class="row pt-3 px-3">
-                <div class="col-12 col-sm-4 px-0">
+                <div class="col-12 col-sm-4 px-0 pt-1">
                     <img src="assets/img/animal-cancer-trust-3.jpg" class="w-100"/>
                 </div>
                 <div class="col-12 col-sm-8 pl-4 py-3 py-sm-0">
                     <p>
                         Our new website and ACT now to become a CAP (Cancer Alert Practice)
                         campaign will help us to:
+                    </p>
+                    <p>
                         Provide informative, independent educational material to pet owners
+                    </p>
+                    <p>
                         Provide a resource for owners looking for oncology services for their pets
+                    </p>
+                    <p>
                         Educate and inform veterinary and pet professionals on topics associated
                         with cancer in pets
+                    </p>
+                    <p>
                         Generate sufficient income to maintain activities
                     </p>
                 </div>
