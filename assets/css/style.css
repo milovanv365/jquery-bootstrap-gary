@@ -113,6 +113,16 @@ section .news-social-media-content {
 section .color-text-box p {
     color: #ec008c;
     font-weight: bold;
+    cursor: pointer;
+}
+section .color-text-box p:hover {
+    font-weight: lighter;
+}
+section .faq-answer > div {
+    display: none;
+}
+section .case-study-answer > div {
+    display: none;
 }
 
 footer {

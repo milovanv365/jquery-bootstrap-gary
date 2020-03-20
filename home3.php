@@ -26,26 +26,111 @@
                     </p>
                 </div>
                 <div class="row pt-3">
-                    <div class="col-12 col-sm-5 pl-0 pr-3 pb-3 color-text-box">
+                    <div class="col-12 col-sm-5 pl-0 pr-3 pb-3 color-text-box faq-question">
                         <h4 class="color1 font-weight-bolder">FAQs</h4>
                         <p>What is neoplasia?</p>
                         <p>What happens after a diagnosis of cancer is made?</p>
                         <p>What is prognosis?</p>
                         <p>What is remission?</p>
                         <p>What about nutrition?</p>
-                        <p>What about complementary and alternative</p>
+                        <p>What about complementary and alternative?</p>
                         <p>therapy?</p>
                         <p>What about follow-up care?</p>
                         <p>What about the future?</p>
                     </div>
-                    <div class="col-12 col-sm-7 p-3 bg-color3">
-                        <h6 class="color1 font-weight-bold mb-2">What is neoplasia?</h6>
-                        <p>
-                            When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
-                            plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
-                            of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
-                            plastic tumour may be benign or malignant.
-                        </p>
+                    <div class="col-12 col-sm-7 p-3 bg-color3 faq-answer">
+                        <div class="d-block">
+                            <h6 class="color1 font-weight-bold mb-2">What is neoplasia?</h6>
+                            <p>
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">What happens after a diagnosis of cancer is made?</h6>
+                            <p>
+                                What happens after a diagnosis of cancer is made?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">What is prognosis?</h6>
+                            <p>
+                                What is prognosis?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis).
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">What is remission?</h6>
+                            <p>
+                                What is remission?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">What about nutrition?</h6>
+                            <p>
+                                What about nutrition?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">What about complementary and alternative?</h6>
+                            <p>
+                                What about complementary and alternative?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">therapy?</h6>
+                            <p>
+                                therapy?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">What about follow-up care?</h6>
+                            <p>
+                                What about follow-up care?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
+                        <div>
+                            <h6 class="color1 font-weight-bold mb-2">What about the future?</h6>
+                            <p>
+                                What about the future?
+                                When we talk about lumps, growths or tumours we are usually talking about neoplasia. A neo-
+                                plasm is a bunch of cells that forms a lump or tumour and it is the result of uncontrolled growth
+                                of cells. This may be due to a mutation or a lack of programmed cell death (apoptosis). A neo-
+                                plastic tumour may be benign or malignant.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
